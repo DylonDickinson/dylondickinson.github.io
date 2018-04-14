@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body {
+    font-family: Futura;
+    font-size: larger;
+    color: white;
+    background-color: lightslategrey;
+
+}
+body, html {
+    height: 100%;
+}
+
+.top, .bottom {
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    opacity: 0.90;
+}
+
+.top {
+    background-image: url(Capri.JPG);
+    margin-top: -32px;
+    line-height: 1500%;
+}
+.bottom {
+    background-image: url(Deer.JPG);
+    background-size: cover;
+    background-position: center;
+    line-height: 300%;
+}
