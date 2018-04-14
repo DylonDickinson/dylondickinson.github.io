@@ -34,8 +34,3 @@ body, html {
     line-height: 300%;
 }
 
-@media only screen {
-    .top, .bottom {
-        background-attachment: scroll;
-    }
-}
