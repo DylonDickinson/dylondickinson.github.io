@@ -33,3 +33,9 @@ body, html {
     background-position: center;
     line-height: 300%;
 }
+
+@media only screen and (max-device-width: 1366px) {
+    .top, .bottom {
+        background-attachment: scroll;
+    }
+}
