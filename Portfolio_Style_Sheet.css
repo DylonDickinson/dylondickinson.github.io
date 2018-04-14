@@ -31,7 +31,6 @@ body, html {
 .bottom {
     background-image: url(Deer.JPG);
     background-size: cover;
-    background-position: center;
     line-height: 300%;
 }
 
